@@ -1,0 +1,25 @@
+nav.entete{
+    background-color: black;
+    width:100% ;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    
+    
+    }
+    
+    nav.entete a {
+    float: right;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 15px;
+      margin-top: -20px;
+      margin-right: 40px;
+    }
+    i{
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 10px;
+        margin-left: 40px;
+    }
