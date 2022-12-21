@@ -23,3 +23,9 @@ nav.entete{
         padding-top: 10px;
         margin-left: 40px;
     }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        paddinggit: 10px;
+    }

@@ -1,0 +1,33 @@
+.blocimages {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 15px 15px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .images {/* ce block de proprieté correspond a la disposition des images dans la section album */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;/* il contraint les elemnets à etre sur plusieurs lignes */
+  
+  }
+  
+  .image {
+    width: 220px;
+    margin-bottom: 50px;
+  }
+      
+  .imag {
+    width: 100%;
+    height: 170px;
+  }
+  
+  .imag img {
+    object-fit: cover; /* cette propriete definit comment l'image doit s'adapter a son contenu en se referant a sa largeur et sa hauteur */
+    height: 94%;
+    width: 100%;
+    border: 3px #E3D559 dashed;
+    box-shadow: 5px 5px 0px #E3D559;
+    }
